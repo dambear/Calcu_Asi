@@ -1,0 +1,120 @@
+
+/* -------------------------------------- Fonts -------------------------------------- */
+
+@font-face {
+	font-family: Shera;
+	src: url("/resources/Shera-MqWe.ttf") format('truetype');
+}
+
+body{
+    background: #c5c5c5;
+    color: #e4e2e6;
+    text-align: center;
+
+}
+
+.text-label{
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Shera',  sans-serif;
+
+    color: #1a191d;
+
+}
+
+
+
+.outside{
+    margin: 30px auto 40px auto;
+
+    width: 470px;
+    max-width: 470px;
+    
+    border: solid #1b1a1f;
+
+    
+
+    border-radius: 30px;
+
+    background: #1b1a1f;
+
+
+}
+
+.container {
+
+    margin: 70px auto 25px auto;
+
+    width: 400px;
+    max-width: 400px;
+    
+  
+}
+
+#display {
+    margin-bottom: 30px;
+
+    background-color: #30323e;
+    text-align: right;
+    height: 90px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 55px;
+    font-family: 'Shera',  sans-serif;
+
+    border: solid 5px #949494;
+    border-radius: 30px;
+}
+
+
+.one-lane-button {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+}
+
+#clear{
+    background-color: #61395e;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+.button {
+
+    line-height: 100px;
+    text-align: center;
+
+    font-family: 'Shera',  sans-serif;
+    font-size: 35px;
+    cursor: pointer;
+
+    background-color: #22222a;
+
+    border: solid .1px #424141;
+    border-radius: 40px;
+    margin: 5px;
+}
+
+
+.button-s {
+    background-color: #414659;
+}
+
+
+#equal {
+    background-color: #314381;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
