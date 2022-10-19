@@ -3,7 +3,7 @@
 
 @font-face {
 	font-family: Shera;
-	src: url("/resources/Shera-MqWe.ttf") format('truetype');
+	src: url("Shera-MqWe.ttf") format('truetype');
 }
 
 body{
